@@ -1,0 +1,30 @@
+.header {
+    background: var(--blue-transparent);
+    width: 100%;
+}
+.nav-wrap {
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo {
+    margin: auto 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.logo a {
+    color: var(--rating-color);
+    text-decoration: none;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #ccc;
+}
